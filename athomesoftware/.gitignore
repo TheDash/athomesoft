@@ -1,0 +1,41 @@
+# vim swap files
+.*.swp
+.*.swo
+
+# vim session files
+*.vim
+
+# Temp files
+*~
+
+#ignore GCC output files
+*.o
+*.a
+*.so
+*.gch
+*.d
+
+#ignore .yaml files
+*.yaml
+#libtool outputs
+*.la
+
+#Objects and binaries
+bin/
+obj/
+output/
+
+# log files
+*.log
+*.csv
+
+#ignore gtest
+gtest-1.7.0/
+
+#cmake generated files
+*.cmake
+*.make
+
+CMakeFiles/
+catkin_generated/
+CMakeCache.txt
